@@ -97,17 +97,20 @@ To switch off a dimmable light, set data to
 * Get site connections
 * Get next site subdef for EnOcean devices
 
+
 * Get light groups
 * Create new light
 * Delete light
 * Modify light data (for example, name)
 * Toggle a light group
 
+
 * Get scenes
 * Create new scene
 * Delete scene
 * Modify scene data
 * Apply scene
+
 
 * Get sensors
 * Add sensor
