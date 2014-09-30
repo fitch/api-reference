@@ -74,7 +74,13 @@ Get the `_id` of the light you want to set.
 
 To set a dimmable light to 50%, execute the following command.
 
-`curl -X PUT -d '{ "_id": "yourlightid", "on": true, "bri": 127 }' -H "Content-Type: application/json" https://houm.herokuapp.com/site/yoursecretsitekey/light/state`
+```
+curl \
+-X PUT \
+-d '{ "_id": "yourlightid", "on": true, "bri": 127 }' \
+-H "Content-Type: application/json" \
+https://houm.herokuapp.com/site/yoursecretsitekey/light/state
+```
 
 To set a dimmable light at full power, set data to `'{ "_id": "yourlightid", "on": true, "bri": 255 }'`.
 
