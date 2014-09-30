@@ -66,7 +66,7 @@ Essential parts are:
 * `name`: This is the name of the light.
 * `type`: This is either `dimmable` (dimmable light) or `binary` (on/off light)
 * `on`: Whether the light is on or off.
-* `bri`: The brightness of a light. For dimmable lights, the value is between 0 and 255. For binary lights, this is always 0 or 255.
+* `bri`: The brightness of a light. For dimmable lights, the value is in the range 0–255, 0 off, 255 full steam. For binary lights, this is always 0 or 255.
 
 ### Set light state
 
