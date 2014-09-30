@@ -10,7 +10,7 @@ Once you have a sitekey, for example `yoursecretsitekey`, the web UI for your si
 
 ## Using the REST API
 
-All API calls are prefixed by `https://houm.herokuapp.com/site/yoursecretsitekey`.
+All API calls are prefixed by `https://houm.herokuapp.com/api/site/yoursecretsitekey`.
 
 We use [curl](http://curl.haxx.se/) to execute the api calls in our examples.
 
