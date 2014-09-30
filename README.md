@@ -117,3 +117,7 @@ To switch off a dimmable light, set data to
   - Add an action to a sensor event
 
 If you need one or more of these to be documented, please create an issue.
+
+## Using the Websocket API
+
+If you documentation on the Websocket API, please create an issue.
