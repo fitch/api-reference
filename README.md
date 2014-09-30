@@ -92,30 +92,30 @@ To switch off a dimmable light, set data to
 
 ### Undocumented API methods
 
-* Get site data
-* Modify site data
-* Get site connections
-* Get next site subdef for EnOcean devices
+- Get site data
+- Modify site data
+- Get site connections
+- Get next site subdef for EnOcean devices
 
 
-* Get light groups
-* Create new light
-* Delete light
-* Modify light data (for example, name)
-* Toggle a light group
+- Get light groups
+- Create new light
+- Delete light
+- Modify light data (for example, name)
+- Toggle a light group
 
 
-* Get scenes
-* Create new scene
-* Delete scene
-* Modify scene data
-* Apply scene
+- Get scenes
+- Create new scene
+- Delete scene
+- Modify scene data
+- Apply scene
 
 
-* Get sensors
-* Add sensor
-* Delete sensor
-* Modify sensor data
-* Add an action to a sensor event
+- Get sensors
+- Add sensor
+- Delete sensor
+- Modify sensor data
+- Add an action to a sensor event
 
 If you need one or more of these to be documented, please create an issue.
