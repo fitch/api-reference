@@ -20,7 +20,7 @@ Execute the following command:
 
 `curl -X GET https://houm.herokuapp.com/site/yoursecretsitekey/light`
 
-The response is something similar to:
+The response is similar to:
 
 ```
 [
