@@ -82,6 +82,10 @@ curl \
 https://houm.herokuapp.com/site/yoursecretsitekey/light/state
 ```
 
-To set a dimmable light at full power, set data to `'{ "_id": "yourlightid", "on": true, "bri": 255 }'`.
+To set a dimmable light at full power, set data to
 
-To switch off a dimmable light, set data to `'{ "_id": "yourlightid", "on": false, "bri": 0 }'`.
+`'{ "_id": "yourlightid", "on": true, "bri": 255 }'`.
+
+To switch off a dimmable light, set data to
+
+`'{ "_id": "yourlightid", "on": false, "bri": 0 }'`.
