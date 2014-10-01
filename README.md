@@ -120,4 +120,4 @@ If you need one or more of these to be documented, please create an issue.
 
 ## Using the Websocket API
 
-If you documentation on the Websocket API, please create an issue.
+If need you documentation on the Websocket API, please create an issue.
