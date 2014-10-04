@@ -145,6 +145,18 @@ The response is similar to:
 ]
 ```
 
+### Activate a scene
+
+Get the `_id` of the scene you want to activate.
+
+```
+curl \
+-X PUT \
+-d '{ "_id": "yoursceneid" }' \
+-H "Content-Type: application/json" \
+https://houm.herokuapp.com/api/site/yoursecretsitekey/scene/apply
+```
+
 ### Undocumented API methods
 
 - Sites
@@ -162,7 +174,6 @@ The response is similar to:
   - Create new scene
   - Delete scene
   - Modify scene data
-  - Apply scene
 - Sensors
   - Get sensors
   - Add sensor
