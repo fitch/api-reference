@@ -90,6 +90,61 @@ To switch off a dimmable light, set data to
 
 `'{ "_id": "yourlightid", "on": false, "bri": 0 }'`.
 
+### Get all scenes
+
+`curl -X GET https://houm.herokuapp.com/site/yoursecretsitekey/scene`
+
+The response is similar to:
+
+```
+[
+    {
+        "_id": "53fe861087b294c57dca3920",
+        "name": "Iltavalot",
+        "siteid": "yoursecretsitekey",
+        "state": [
+            {
+                "_id": "53fbbd7a8cfc4a98a86e54bf",
+                "bri": 133,
+                "on": true
+            },
+            {
+                "_id": "53fbc2abcf9f7a42c93337ee",
+                "bri": 213,
+                "on": true
+            },
+            {
+                "_id": "53fbc61c0944c1dcce607ed5",
+                "bri": 84,
+                "on": true
+            }
+        ]
+    },
+    {
+        "_id": "53fc52092cf918c209bdefea",
+        "name": "Kaikki pois",
+        "siteid": "yoursecretsitekey",
+        "state": [
+            {
+                "_id": "53fbbd7a8cfc4a98a86e54bf",
+                "bri": 0,
+                "on": false
+            },
+            {
+                "_id": "53fbc2abcf9f7a42c93337ee",
+                "bri": 0,
+                "on": false
+            },
+            {
+                "_id": "53fbc61c0944c1dcce607ed5",
+                "bri": 0,
+                "on": false
+            }
+        ]
+    }
+]
+```
+
 ### Undocumented API methods
 
 - Sites
@@ -104,7 +159,6 @@ To switch off a dimmable light, set data to
   - Modify light data (for example, name)
   - Toggle a light group
 - Scenes
-  - Get scenes
   - Create new scene
   - Delete scene
   - Modify scene data
